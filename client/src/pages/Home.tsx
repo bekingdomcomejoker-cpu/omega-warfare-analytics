@@ -11,7 +11,7 @@ import {
   Code, Server, Terminal, Layers, Brain, Flame, Lock, Wand2
 } from "lucide-react";
 import { useState } from "react";
-import { useAuth } from "@/contexts/AuthContext";
+import { useAuth } from "@/_core/hooks/useAuth";
 import { useLocation } from "wouter";
 import { useEffect } from "react";
 
